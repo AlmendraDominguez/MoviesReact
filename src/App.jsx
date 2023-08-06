@@ -8,10 +8,11 @@ function App() {
   return (
 <BrowserRouter>
       <header >
-        <Link to="/">
       <h1 className="title" >PELICULAS</h1>
-      </Link>
       </header>
+      <main>
+        <LandingPage/>
+      </main>
     <Routes>
     <Route path="/" element={<LandingPage/>} />
     <Route path="/pelicula/:peliculaId" element={<PeliculaDetalle/>}/>
