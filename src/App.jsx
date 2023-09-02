@@ -6,19 +6,17 @@ import "./App.css";
 
 function App() {
   return (
-<BrowserRouter>
+    <BrowserRouter>
       <header >
-      <h1 className="title" >PELICULAS</h1>
+        <h1 className="title" >PELICULAS</h1>
       </header>
-      <main>
-        <LandingPage/>
-      </main>
-    <Routes>
-    <Route path="/" element={<LandingPage/>} />
-    <Route path="/pelicula/:peliculaId" element={<PeliculaDetalle/>}/>
-    </Routes>
-     
-</BrowserRouter>
+      
+      <Routes>
+        <Route path="/MoviesReact" element={<LandingPage/>} />
+        <Route path="/pelicula/:peliculaId" element={<PeliculaDetalle/>}/>
+      </Routes>
+        
+    </BrowserRouter>
   );
 }
 
