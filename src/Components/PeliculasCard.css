@@ -9,7 +9,6 @@
     background-color: azure;
     width: 230px;
     height: 345px;
-    
 }
 .movieImage:hover{
 box-shadow: 0 0 11px gray;
@@ -17,7 +16,8 @@ filter: grayscale(80%);
 }
 
 a{
-    text-decoration: none
+    text-decoration: none;
+    color: white;
 }
 
 @media(max-width:560px){

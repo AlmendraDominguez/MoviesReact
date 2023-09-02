@@ -1,6 +1,4 @@
-
 .containerBuscador{
-    
     display: flex;
     justify-content: center;
 }
@@ -10,13 +8,13 @@
 }
 
 .botonBuscador{
-  position: absolute;  
-  right:0;
-top:0;
-cursor: pointer;
-height: 100%;
-border: none;
-background: none;
+    position: absolute;  
+    right:0;
+    top:0;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    background: none;
 }
 
 .inputBuscador{

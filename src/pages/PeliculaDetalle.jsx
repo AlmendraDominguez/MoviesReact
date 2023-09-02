@@ -33,15 +33,15 @@ export const PeliculaDetalle = () => {
         <img className="col" src={imgURL} alt={pelicula.title} />
       <div className="peliculaDetalle col">
         <p className="item">
-          <strong>Titulo:</strong>
+          <strong>Titulo: </strong>
           {pelicula.title}
         </p>
         <p>
-            <strong>Generos:</strong>
+            <strong>Generos: </strong>
             {pelicula.genres.map((genre)=>genre.name).join(", ")}
         </p>
         <p>
-            <strong>Descripcion</strong>
+            <strong>Descripcion: </strong>
             {pelicula.overview}
         </p>
       </div>

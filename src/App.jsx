@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <header >
-        <h1 className="title" >PRUEBA</h1>
+        <h1 className="title" >Películas</h1>
       </header>
 
       <Routes>
