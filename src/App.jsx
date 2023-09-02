@@ -8,9 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <header >
-        <h1 className="title" >PELICULAS</h1>
+        <h1 className="title" >PRUEBA</h1>
       </header>
-      
+
       <Routes>
         <Route path="/MoviesReact" element={<LandingPage/>} />
         <Route path="/pelicula/:peliculaId" element={<PeliculaDetalle/>}/>
